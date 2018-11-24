@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="#B71C1C" ></solid>//para el color del boton
+    <corners android:radius="30dp" ></corners> //paraque tan redodnde deben ser los bordes
+    <stroke android:color="#000" android:width="2dp" ></stroke> //el color del borde y su ancho
+
+</shape>

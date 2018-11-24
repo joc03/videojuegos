@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegistrarProductosFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="10dp">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="REGISTRAR PRODUCTOS"
+            android:gravity="center"
+            android:textSize="30dp"
+            android:layout_marginBottom="50dp"
+            android:textStyle="bold"/>
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                >
+
+                <EditText
+                    android:id="@+id/txt_tipo"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:hint="Tipo de Extintor:"
+                    android:focusable="false"
+                    android:layout_marginBottom="10dp"/>
+
+                <Spinner
+                    android:id="@+id/sp_marca"
+                    android:layout_width="200dp"
+                    android:layout_height="45dp"
+                    android:background="@drawable/imagen_border"
+
+
+
+                    ></Spinner>
+
+            </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    >
+
+                    <EditText
+                        android:id="@+id/txt_fec_venc"
+                        android:layout_width="300dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:focusable="false"
+                        android:hint="Fecha de Vencimiento" />
+
+                    <Button
+                        android:id="@+id/btnFecha"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Buscar"/>
+
+
+                </LinearLayout>
+
+
+
+                <EditText
+                    android:id="@+id/txt_peso"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:hint="Peso"/>
+                <EditText
+                    android:id="@+id/txt_marca"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:hint="Marca"/>
+
+                <EditText
+                    android:id="@+id/txt_precio"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:hint="Precio"/>
+
+                <EditText
+                    android:id="@+id/txt_stock"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="50dp"
+                    android:hint="Stock"/>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/sinimagen"
+                    android:layout_marginBottom="22dp"/>
+
+
+
+
+
+
+
+                <Button
+                    android:id="@+id/btnRegistrar"
+                    android:layout_width="400dp"
+                    android:layout_height="wrap_content"
+                    android:text="Registrar"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:background="@color/colorAccent"
+                    android:textColor="@android:color/white" />
+            </LinearLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+
+
+</FrameLayout>

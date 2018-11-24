@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_CatalogoDeProductos"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Catalogo de Productos" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Carrito de Compras" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Buscar Producto" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Estado de la Compra" />
+    </group>
+
+    <item android:title="Administrador">
+        <menu>
+            <item
+                android:id="@+id/nav_agregarProductos"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Agregar Productos" />
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Consultar Compras" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Consultar Usuarios" />
+            <item
+                android:id="@+id/nav_crearAdminsitradores"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Crear Administradores" />
+            <item
+                android:id="@+id/nav_ModificarInventario"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Modificar Inventario" />
+        </menu>
+    </item>
+
+</menu>

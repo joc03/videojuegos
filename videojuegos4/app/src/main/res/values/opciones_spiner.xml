@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string-array name="combo_dias">
+
+        <item>TIPO 1</item>
+        <item>TIPO 2</item>
+        <item>TIPO 3</item>
+        <item>TIPO 4</item>
+        <item>TIPO 5</item>
+
+    </string-array>
+
+
+
+</resources>
